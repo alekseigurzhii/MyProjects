@@ -29,7 +29,7 @@ public class common {
         public void run() {
             try {
                 readInputHeaders();
-                writeResponse("<html><body><h1>Hello from Habrahabr</h1></body></html>");
+                writeResponse("<html><body><h1>HTTP server for rest</h1></body></html>");
             } catch (Throwable t) {
                 /*do nothing*/
             } finally {
